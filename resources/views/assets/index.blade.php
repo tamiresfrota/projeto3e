@@ -31,7 +31,7 @@
             <tr>
             <th scope="col">#</th>
             <th scope="col">Nome</th>
-            <th scope="col">Proprietario</th>
+            <th scope="col">Categoria</th>
             <th scope="col">Tipo</th>
             <th scope="col">Descrição</th>
             <th scope="col">Data de Aquisição</th>

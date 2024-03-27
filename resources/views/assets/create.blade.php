@@ -15,8 +15,8 @@
                 </div>
                 <div class="col-12 col-sm-4">
                     <div class="form-group">
-                        <label for="category">Proprietario:</label>
-                        <input type="text" name="category" class="form-control" placeholder="Digite um nome para o ativo">
+                        <label for="category">Categoria:</label>
+                        <input type="text" name="category" class="form-control" placeholder="Digite uma categoria para o ativo">
                     </div>
                 </div>
             </div>

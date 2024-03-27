@@ -17,8 +17,8 @@
                 </div>
                 <div class="col-12 col-sm-4">
                     <div class="form-group">
-                        <label for="owner">Proprietario:</label>
-                        <input type="text" name="owner" value="{{ $asset->owner }}"
+                        <label for="owner">Categoria:</label>
+                        <input type="text" name="category" value="{{ $asset->category }}"
                         class="form-control" placeholder="Digite um nome para o ativo">
                     </div>
                 </div>

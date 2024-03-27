@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-12 col-sm-4">
                     <div class="form-group">
-                        <label for="owner">Categoria:</label>
+                        <label for="category">Categoria:</label>
                         <input type="text" name="category" value="{{ $asset->category }}"
                         class="form-control" placeholder="Digite um nome para o ativo">
                     </div>

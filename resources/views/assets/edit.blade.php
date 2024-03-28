@@ -59,19 +59,19 @@
                 <div class="col-12 col-sm-3">
                     <div class="form-group">
                         <label for="location_id">Rua:</label>
-                        <input type="text" name="street" value="{{ $locations->street }}"class="form-control" placeholder="Enter street">
+                        <input type="text" name="street" value="{{ $locations->street }}"class="form-control" placeholder="Digite a rua">
                     </div>
                 </div>
                 <div class="col-12 col-sm-3">
                     <div class="form-group">
                         <label for="location_id">Número:</label>
-                        <input type="text" name="number" value="{{ $locations->number }}" class="form-control" placeholder="Enter number">
+                        <input type="text" name="number" value="{{ $locations->number }}" class="form-control" placeholder="Digite o número">
                     </div>
                 </div>
                 <div class="col-12 col-sm-3">
                     <div class="form-group">
                         <label for="location_id">Bairro:</label>
-                        <input type="text" name="neighborhood" value="{{ $locations->neighborhood }}" class="form-control" placeholder="Enter neighborhood">
+                        <input type="text" name="neighborhood" value="{{ $locations->neighborhood }}" class="form-control" placeholder="Digite o bairro">
                     </div>
                 </div>
                 
@@ -80,19 +80,19 @@
                 <div class="col-12 col-sm-3">
                     <div class="form-group">
                         <label for="location_id">Cidade:</label>
-                        <input type="text" name="city" value="{{ $locations->city }}" class="form-control" placeholder="Enter city">
+                        <input type="text" name="city" value="{{ $locations->city }}" class="form-control" placeholder="Digite a cidade">
                     </div>
                 </div>
                 <div class="col-12 col-sm-3">
                     <div class="form-group">
                         <label for="location_id">Estado:</label>
-                        <input type="text" name="state" value="{{ $locations->state }}" class="form-control" placeholder="Enter state">
+                        <input type="text" name="state" value="{{ $locations->state }}" class="form-control" placeholder="Digite o Estado">
                     </div>
                 </div>
                 <div class="col-12 col-sm-3">
                     <div class="form-group">
                         <label for="location_id">País:</label>
-                        <input type="text" name="country" value="{{ $locations->country }}" class="form-control" placeholder="Enter country">
+                        <input type="text" name="country" value="{{ $locations->country }}" class="form-control" placeholder="Digite o país">
                     </div>
                 </div>
                 <input type="hidden" name="location_id" value="{{ $asset->location_id }}">
